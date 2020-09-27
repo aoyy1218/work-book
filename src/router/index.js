@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/view/index.vue'
-import Project from '@/view/Project.vue'
+import Project from '@/view/Project/index.vue'
 
 Vue.use(Router)
 
@@ -13,8 +13,8 @@ export default new Router({
       component: Index
     },
     {
-      path: 'project',
-      name: 'Project',
+      path: '/project',
+      name: 'project',
       component: Project
     }
   ]
